@@ -1,0 +1,954 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_cl_stock_picking
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0-20190116\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-28 17:32+0000\n"
+"PO-Revision-Date: 2019-03-28 14:56-0300\n"
+"Last-Translator: Nelson Ramírez <info@konos.cl>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_CL\n"
+"X-Generator: Poedit 2.2.1\n"
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,help:l10n_cl_stock_picking.field_stock_picking_book__state
+msgid ""
+" * The 'Draft' status is used when a user is encoding a new and unconfirmed Invoice.\n"
+" * The 'Pro-forma' status is used the invoice does not have an invoice number.\n"
+" * The 'Open' status is used when user create invoice, an invoice number is generated. Its in open status till user does not pay invoice.\n"
+" * The 'Paid' status is set automatically when the invoice is paid. Its related journal entries may or may not be reconciled.\n"
+" * The 'Cancelled' status is used when user cancel invoice."
+msgstr ""
+"* El estado ' borrador ' se utiliza cuando un usuario codifica una factura nueva y no confirmada.\n"
+" * El estado \"pro-forma\" se utiliza la factura no tiene un número de factura.\n"
+" * El estado ' abierto ' se utiliza cuando el usuario crea una factura, se genera un número de factura. Está en estado abierto hasta que el usuario no pague la factura.\n"
+" * El estado \"pagado\" se establece automáticamente cuando se paga la factura. Sus entradas de diario relacionadas pueden o no ser conciliadas.\n"
+" * El estado ' cancelado ' se utiliza cuando el usuario cancela la factura."
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid "\"El acuse de recibo que se declara en este acto, de acuerdo a lo dispuesto en la letra b) del Artículo 4°, y la letra c) del Artículo 5° de la Ley 19.983, acredita que la entrega de mercaderías o servicio(s) prestado(s) ha(n) sido recibido(s)\""
+msgstr "\"El puede de recibo recibo que se declara en este acto, de acuerdo a lo dispuesto en la letra b) del artículo 4 °, y la letra c) del artículo 5 ° de la ley 19,983, acredita que la entrega de mercaderías o servicio (s) prestado (s) ha (n) sido recibido (s)\""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.view_electroinic_stock_picking_form
+msgid "- Next Number:"
+msgstr "- Próximo Número:"
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid "<span> Documento de Referencia</span>"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid "<strong>Ciudad:</strong>"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid "<strong>Comuna:</strong>"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid "<strong>Condición de Pago:</strong>"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid "<strong>Contacto:</strong>"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid "<strong>Descuento</strong>"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid "<strong>Domicilio:</strong>"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid "<strong>FECHA:</strong>"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid "<strong>FIRMA:</strong>"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid "<strong>Fecha:</strong>"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid "<strong>Folio:</strong>"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid "<strong>Giro:</strong>"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid "<strong>Nombre:</strong>"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid "<strong>R.U.T.:</strong>"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid "<strong>RECINTO:</strong>"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid "<strong>RUT:</strong>"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid "<strong>Reference:</strong>"
+msgstr "<strong>Referencia:</strong>"
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid "<strong>Señor (es):</strong>"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid "<strong>Subtotal</strong>"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid "<strong>Total</strong>"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid "<strong>Vencimiento:</strong>"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.actions.act_window,help:l10n_cl_stock_picking.action_move_books
+msgid ""
+"A journal entry consists of several journal items, each of\n"
+"          which is either a debit or a credit transaction."
+msgstr "Un asiento consta de varias posiciones de diario, cada una de las cuales es una transacción de débito o de crédito."
+
+#. module: l10n_cl_stock_picking
+#: selection:stock.picking,sii_result:0 selection:stock.picking.book,state:0
+msgid "Aceptado"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: selection:stock.picking.book,tipo_envio:0
+msgid "Ajuste"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: selection:stock.picking,sii_result:0 selection:stock.picking.book,state:0
+msgid "Anulado"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: selection:stock.picking,estado_recep_dte:0
+msgid "Archivo Ilegible"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: selection:stock.picking,estado_recep_dte:0
+msgid "Archivo Repetido"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.view_electroinic_book_guias_form
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.view_electronic_stock_picking_form
+msgid "Ask for DTE"
+msgstr "Consulta DTE"
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking__sii_batch_number
+msgid "Batch Number"
+msgstr "Número de lote"
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,help:l10n_cl_stock_picking.field_stock_picking__sii_batch_number
+msgid "Batch number for processing multiple invoices together"
+msgstr "Número de lote para procesar varias facturas juntas"
+
+#. module: l10n_cl_stock_picking
+#: selection:stock.picking.book,state:0
+msgid "Borrador"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid "CEDIBLE CON SU FACTURA"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.sii_dte_masive_send_wizard_form
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid "Cantidad"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking__chofer
+msgid "Chofer"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid "Ciudad"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.actions.act_window,help:l10n_cl_stock_picking.action_move_books
+msgid "Click to create a journal entry."
+msgstr "Haga clic para crear una entrada de diario."
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking_book__company_id
+msgid "Company"
+msgstr "Compañía"
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.sii_dte_masive_send_wizard_form
+msgid "Confirm"
+msgstr "Confirmar"
+
+#. module: l10n_cl_stock_picking
+#: selection:stock.picking,estado_recep_dte:0
+msgid "Conforme"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: selection:stock.picking,move_reason:0
+msgid "Consignaciones"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking__contact_id
+msgid "Contacto"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_sii_dte_stock_picking_masive_send_wizard__create_uid
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking_book__create_uid
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking_referencias__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_sii_dte_stock_picking_masive_send_wizard__create_date
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking_book__create_date
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking_referencias__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_move__currency_id
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking__currency_id
+msgid "Currency"
+msgstr "Moneda"
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_location__sii_code
+msgid "Código de Sucursal SII"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking__sii_barcode_img
+msgid "Código de barras SII"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.sii_dte_masive_send_wizard_form
+msgid "DTes a enviar"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid "Desc.(%)"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid "Descripción"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: selection:stock.picking,transport_type:0
+msgid "Despacho Externo"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: selection:stock.picking,transport_type:0
+msgid "Despacho por cuenta de empresa"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: selection:stock.picking,transport_type:0
+msgid "Despacho por cuenta del cliente"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking_book__name
+msgid "Detalle"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid "Dirección de Envío"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_move__discount
+msgid "Discount (%)"
+msgstr "Descuento (%)"
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_sii_dte_stock_picking_masive_send_wizard__display_name
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking_book__display_name
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking_referencias__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking__sii_document_number
+msgid "Document Number"
+msgstr "Número de Documento"
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_location__sii_document_class_id
+msgid "Document Type"
+msgstr "Tipo de Documento"
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking_referencias__stock_picking_id
+msgid "Documento"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.view_electroinic_book_guias_form
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.view_electronic_stock_picking_form
+msgid "Download XML"
+msgstr "Descargar XML"
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid "E-Mail:"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.view_electronic_stock_picking_form
+msgid "Electronic Document"
+msgstr "Documento Electrónico"
+
+#. module: l10n_cl_stock_picking
+#: selection:stock.picking,sii_result:0
+msgid "En cola de envío"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: selection:stock.picking,move_reason:0
+msgid "Entrega Gratuita"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_location__sequence_id
+msgid "Entry Sequence"
+msgstr "Secuencia del asiento"
+
+#. module: l10n_cl_stock_picking
+#: selection:stock.picking,sii_result:0 selection:stock.picking.book,state:0
+msgid "Enviado"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.actions.act_window,name:l10n_cl_stock_picking.action_stock_picking_masive_send
+msgid "Enviar Guías de despacho al sii"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: selection:stock.picking,estado_recep_dte:0
+msgid "Envio Rechazado - Otros"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.view_electroinic_book_guias_form
+msgid "Envio SII"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: selection:stock.picking,estado_recep_dte:0
+msgid "Error de Firma"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: selection:stock.picking,estado_recep_dte:0
+msgid "Error de Schema"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: selection:stock.picking.book,tipo_libro:0
+msgid "Especial"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking__estado_recep_dte
+msgid "Estado de Recepcion del Envio"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking_referencias__date
+msgid "Fecha de la referencia"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking_book__folio_notificacion
+msgid "Folio de Notificación"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking__activity_description
+msgid "Giro"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: selection:stock.picking,move_reason:0
+msgid "Guía de Devolución"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_sii_xml_envio__picking_ids
+msgid "Guías"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.invoice
+msgid "Guías de Despachos Pendientes"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_sii_dte_stock_picking_masive_send_wizard__id
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking_book__id
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking_referencias__id
+msgid "ID"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking__estado_recep_glosa
+msgid "Información Adicional del Estado de Recepción"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model,name:l10n_cl_stock_picking.model_stock_location
+msgid "Inventory Locations"
+msgstr "Ubicaciones de inventario"
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model,name:l10n_cl_stock_picking.model_account_invoice
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking__invoiced
+msgid "Invoiced?"
+msgstr "¿Facturado?"
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_account_invoice__picking_ids
+msgid "Invoices"
+msgstr "Facturas"
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking__canceled
+msgid "Is Canceled?"
+msgstr "¿Está cancelado?"
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_sii_dte_stock_picking_masive_send_wizard____last_update
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking_book____last_update
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking_referencias____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_sii_dte_stock_picking_masive_send_wizard__write_uid
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking_book__write_uid
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking_referencias__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_sii_dte_stock_picking_masive_send_wizard__write_date
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking_book__write_date
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking_referencias__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: l10n_cl_stock_picking
+#: model:ir.actions.act_window,name:l10n_cl_stock_picking.action_move_books
+#: model:ir.ui.menu,name:l10n_cl_stock_picking.menu_action_move_books_form
+msgid "Libros Cierre de Mes"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_location__restore_mode
+msgid "Modo Restauración"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking_book__move_ids
+msgid "Move"
+msgstr "Asiento"
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_sii_dte_stock_picking_masive_send_wizard__documentos
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.view_electroinic_book_guias_form
+msgid "Movimientos"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking__next_number
+msgid "Next Document Number"
+msgstr "Siguiente número de documento"
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,help:l10n_cl_stock_picking.field_stock_picking__next_number
+msgid "Next number that will be used. This number can be incremented frequently so the displayed value might already be obsolete"
+msgstr "Próximo número que se utilizará. Este número puede incrementarse frecuentemente por lo que el valor mostrado puede estar ya obsoleto."
+
+#. module: l10n_cl_stock_picking
+#: selection:stock.picking,sii_result:0 selection:stock.picking.book,state:0
+msgid "No Enviado"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: selection:stock.picking,estado_recep_dte:0
+msgid "No Revisado"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_move__name
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid "Nombre"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_sii_dte_stock_picking_masive_send_wizard__numero_atencion
+msgid "Número de atención"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.actions.act_window,help:l10n_cl_stock_picking.action_move_books
+msgid ""
+"Odoo automatically creates one journal entry per accounting\n"
+"          document: invoice, refund, vendor payment, bank statements,\n"
+"          etc. So, you should record journal entries manually only/mainly\n"
+"          for miscellaneous operations."
+msgstr ""
+"Odoo crea automáticamente una entrada de diario por documento\n"
+"          contable: factura, reembolso, pago de proveedor, extractos bancarios,,\n"
+"          etc. Por lo tanto, debe registrar las entradas del diario solo/principalmente,\n"
+"          para operaciones diversas."
+
+#. module: l10n_cl_stock_picking
+#: selection:stock.picking,move_reason:0
+msgid "Operación constituye venta"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking_referencias__origen
+msgid "Origin"
+msgstr "Origen"
+
+#. module: l10n_cl_stock_picking
+#: selection:stock.picking,move_reason:0
+msgid "Otros traslados no venta"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: selection:stock.picking.book,tipo_envio:0
+msgid "Parcial"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking__patente
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid "Patente"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_account_invoice__has_pending_pickings
+msgid "Pending Pickings"
+msgstr "Pickings pendientes"
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking_book__periodo_tributario
+msgid "Periodo Tributario"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid "Precio"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_move__precio_unitario
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid "Precio Unitario"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_move__price_untaxed
+msgid "Price Untaxed"
+msgstr "Precio Sin Impuesto"
+
+#. module: l10n_cl_stock_picking
+#: model:ir.actions.report,name:l10n_cl_stock_picking.action_print_stock_cedible
+msgid "Print Cedible"
+msgstr "Imprimir Cedible"
+
+#. module: l10n_cl_stock_picking
+#: selection:stock.picking,sii_result:0 selection:stock.picking.book,state:0
+msgid "Proceso"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model,name:l10n_cl_stock_picking.model_purchase_order_line
+msgid "Purchase Order Line"
+msgstr "Línea pedido de compra"
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid "R.U.T.:"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid "RUT"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: selection:stock.picking,estado_recep_dte:0
+msgid "RUT Receptor No Corresponde"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking__move_reason
+msgid "Razón del traslado"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.view_electronic_stock_picking_form
+msgid "ReSend XML"
+msgstr "Reenviar XML"
+
+#. module: l10n_cl_stock_picking
+#: selection:stock.picking,sii_result:0 selection:stock.picking.book,state:0
+msgid "Rechazado"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: selection:stock.picking.book,state:0
+msgid "Reenviar"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking__reference
+msgid "Reference"
+msgstr "Referencia"
+
+#. module: l10n_cl_stock_picking
+#: selection:stock.picking,sii_result:0 selection:stock.picking.book,state:0
+msgid "Reparo"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking__responsability_id
+msgid "Responsability"
+msgstr "Tipo de Contribuyente"
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking__responsable_envio
+msgid "Responsable Envio"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking__sii_result
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking_book__state
+msgid "Resultado"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid "SII -"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,help:l10n_cl_stock_picking.field_stock_picking__sii_barcode_img
+msgid "SII Barcode Image in PDF417 format"
+msgstr "Imagen de código de barras SII en formato PDF417"
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,help:l10n_cl_stock_picking.field_stock_picking__sii_barcode
+msgid "SII Barcode Name"
+msgstr "SII nombre de código de barras"
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking__sii_barcode
+msgid "SII Código de barras"
+msgstr "SII código de barras"
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.sii_dte_masive_send_wizard_form
+msgid "SII DTE masive send Wizard"
+msgstr "Asistente de envío masivo de SII DTE"
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model,name:l10n_cl_stock_picking.model_sii_dte_stock_picking_masive_send_wizard
+msgid "SII Masive send Wizard"
+msgstr "Asistente de envío masivo"
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking__sii_message
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking_book__sii_message
+msgid "SII Message"
+msgstr "Mensajes del SII"
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking_referencias__sii_referencia_TpoDocRef
+msgid "SII Reference Document Type"
+msgstr "SII Tipo de Documento De Referencia"
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking_book__sii_send_ident
+msgid "SII Send Identification"
+msgstr "Identificación de envío del SII"
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking__sii_xml_dte
+msgid "SII XML DTE"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking__sii_xml_request
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking_book__sii_xml_request
+msgid "SII XML Request"
+msgstr "Actualizar Respuesta SII"
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking_book__sii_xml_response
+msgid "SII XML Response"
+msgstr "Respuesta del SII"
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,help:l10n_cl_stock_picking.field_stock_picking__sii_result
+msgid "SII request result"
+msgstr "Resultado SII"
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model,name:l10n_cl_stock_picking.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Línea de pedido de venta"
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.view_electroinic_book_guias_form
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.view_electronic_stock_picking_form
+msgid "Send XML"
+msgstr "Enviar XML"
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model,name:l10n_cl_stock_picking.model_ir_sequence
+msgid "Sequence"
+msgstr "Secuencia"
+
+#. module: l10n_cl_stock_picking
+#: selection:stock.picking,transport_type:0
+msgid "Sin Definir"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model,name:l10n_cl_stock_picking.model_stock_move
+msgid "Stock Move"
+msgstr "Movimiento de stock"
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model,name:l10n_cl_stock_picking.model_stock_rule
+msgid "Stock Rule"
+msgstr "Regla de Inventario"
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_move__subtotal
+msgid "Subtotal"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_move__move_line_tax_ids
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking__amount_tax
+msgid "Taxes"
+msgstr "Impuestos"
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid "Teléfono:"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,help:l10n_cl_stock_picking.field_stock_location__sequence_id
+msgid "This field contains the information related to the numbering             of the documents entries of this document type."
+msgstr "Este campo contiene la información relacionada con la numeración             de las entradas de documentos de esta clase de documento."
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid ""
+"Timbre Electrónico SII\n"
+"                               <br/>\n"
+"                               Resolución"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid "Tipo Operación"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking__transport_type
+msgid "Tipo de Despacho"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking_book__tipo_envio
+msgid "Tipo de Envío"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking_book__tipo_libro
+msgid "Tipo de Libro"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking__amount_total
+#: selection:stock.picking.book,tipo_envio:0
+msgid "Total"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model,name:l10n_cl_stock_picking.model_stock_picking
+msgid "Transfer"
+msgstr "Transferir"
+
+#. module: l10n_cl_stock_picking
+#: selection:stock.picking,move_reason:0
+msgid "Traslado para exportación"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: selection:stock.picking,move_reason:0
+msgid "Traslados Internos"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking__amount_untaxed
+msgid "Untaxed Amount"
+msgstr "Base imponible"
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking__use_documents
+msgid "Use Documents?"
+msgstr "Guía Electrónica"
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.view_electroinic_book_guias_form
+msgid "Validate"
+msgstr "Validar"
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model.fields,field_description:l10n_cl_stock_picking.field_stock_picking__vehicle
+msgid "Vehículo"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: selection:stock.picking,move_reason:0
+msgid "Ventas para exportación"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: selection:stock.picking,move_reason:0
+msgid "Ventas por efectuar"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid "Verifique documento: www.sii.cl"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.invoice
+msgid "You have"
+msgstr "Tiene"
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.dte_stock_picking
+msgid "de"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.invoice
+msgid "for this customer. You can allocate them to add as reference on Other Info."
+msgstr "para este cliente. Puede asignarlos para agregarlos como referencia en otra información."
+
+#. module: l10n_cl_stock_picking
+#: selection:stock.picking,sii_result:0
+msgid "n/a"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.invoice
+msgid "not invoiced pickings"
+msgstr "no facturados"
+
+#. module: l10n_cl_stock_picking
+#: model_terms:ir.ui.view,arch_db:l10n_cl_stock_picking.sii_dte_masive_send_wizard_form
+msgid "or"
+msgstr "o"
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model,name:l10n_cl_stock_picking.model_sii_xml_envio
+msgid "sii.xml.envio"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model,name:l10n_cl_stock_picking.model_stock_picking_book
+msgid "stock.picking.book"
+msgstr ""
+
+#. module: l10n_cl_stock_picking
+#: model:ir.model,name:l10n_cl_stock_picking.model_stock_picking_referencias
+msgid "stock.picking.referencias"
+msgstr ""
